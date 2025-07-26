@@ -1,0 +1,1163 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.skill-main-container {
+  position: relative;
+  width: 1520px;
+  height: 862px;
+  top: -1px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+}
+.skill-flex-row-bf {
+  position: relative;
+  width: 1279px;
+  height: 808px;
+  margin: -111px 100px 0 120px;
+  z-index: 26;
+}
+.skill-rectangle {
+  position: absolute;
+  width: 222.08px;
+  height: 222.08px;
+  top: 0;
+  left: 349px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/svuxEWEDZy.png)
+    no-repeat center;
+  background-size: contain;
+  opacity: 0.42;
+  z-index: 19;
+}
+.skill-rectangle-1 {
+  position: absolute;
+  width: 222.08px;
+  height: 222.08px;
+  top: 0;
+  left: 702.512px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/JZVgV6wzOE.png)
+    no-repeat center;
+  background-size: contain;
+  opacity: 0.42;
+  z-index: 20;
+}
+.skill-rectangle-2 {
+  position: absolute;
+  width: 142.131px;
+  height: 142.131px;
+  top: 40px;
+  left: 872px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/QmJ5qpfp3J.png)
+    no-repeat center;
+  background-size: contain;
+  opacity: 0.22;
+  z-index: 23;
+}
+.skill-rectangle-3 {
+  position: absolute;
+  width: 142.131px;
+  height: 142.131px;
+  top: 41px;
+  left: 259px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/9gEeHbg0jC.png)
+    no-repeat center;
+  background-size: contain;
+  opacity: 0.22;
+  z-index: 22;
+}
+.skill-rectangle-4 {
+  position: absolute;
+  width: 90.964px;
+  height: 90.964px;
+  top: 66px;
+  left: 983px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/FmgJ5gtW4n.png)
+    no-repeat center;
+  background-size: contain;
+  opacity: 0.15;
+  z-index: 26;
+}
+.skill-rectangle-5 {
+  position: absolute;
+  width: 90.964px;
+  height: 90.964px;
+  top: 67px;
+  left: 204px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/CQkdkB5X2x.png)
+    no-repeat center;
+  background-size: contain;
+  opacity: 0.15;
+  z-index: 25;
+}
+.skill-skills {
+  position: absolute;
+  width: 253.049px;
+  height: 46.595px;
+  top: 111px;
+  left: 509.758px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/zvpJD1huyC.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 17;
+}
+.skill-frame-6 {
+  position: absolute;
+  width: 1279px;
+  height: 610px;
+  top: 50%;
+  z-index: 1;
+  overflow: hidden;
+  transition: all 0.4s ease-in-out;
+}
+
+.centered-frame {
+  left: 50%;
+  transform: translate(-50%, -33.77%);
+}
+
+.shifted-frame {
+  left: 58%;
+  transform: translate(-50%, -33.77%);
+}
+
+.skill-group-1 {
+  position: absolute;
+  width: 412px;
+  height: 145px;
+  top: 50%;
+  left: 150px;
+  transform: translate(0, -49.66%);
+  z-index: 14;
+}
+.skill-group-2 {
+  position: relative;
+  width: 412px;
+  height: 108.65px;
+  margin: 0 0 0 0;
+  z-index: 15;
+}
+.skill-programming-3 {
+  position: absolute;
+  width: 412px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 56.25px;
+  font-weight: 500;
+  line-height: 84px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  letter-spacing: 1.69px;
+  z-index: 100;
+}
+.skill-pro {
+  position: relative;
+  color: #2f005b;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 56.25px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 84.375px;
+  text-align: left;
+  letter-spacing: 1.69px;
+  -webkit-text-stroke: 1.5px #2f005b;
+  z-index: 100;
+}
+.skill-gramming {
+  position: relative;
+  color: transparent;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 56.25px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 84.375px;
+  text-align: left;
+  letter-spacing: 1.69px;
+  -webkit-text-stroke: 0.1px #2f005b;
+}
+.skill-languages {
+  position: absolute;
+  width: 164.149px;
+  height: 41.697px;
+  top: 67.703px;
+  left: 246.677px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/rVvo8TD95w.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 17;
+}
+.skill-frame-4 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 14px;
+  position: relative;
+  width: 331.8px;
+  margin: 10.35px 0 0 40px;
+  z-index: 18;
+}
+.skill-c {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 44.1px;
+  height: 26px;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 17.5px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: 2.63px;
+  z-index: 19;
+  -webkit-text-stroke: 1.05px #2c0056;
+}
+.skill-python {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 100.8px;
+  height: 26px;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 17.5px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: 2.63px;
+  z-index: 20;
+  -webkit-text-stroke: 1.05px #2c0056;
+}
+.skill-java {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 78.4px;
+  height: 26px;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 17.5px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: 2.63px;
+  z-index: 21;
+  -webkit-text-stroke: 1.05px #2c0056;
+}
+.skill-sql {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 66.5px;
+  height: 26px;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 17.5px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: 2.63px;
+  z-index: 22;
+  -webkit-text-stroke: 1.05px #2c0056;
+}
+
+.dev-group-1 {
+  position: absolute;
+  width: 567.3px;
+  height: 214px;
+  top: 50%;
+  left: 100px;
+  transform: translate(0, -52.8%);
+  z-index: 14;
+}
+.dev-group-2 {
+  position: relative;
+  width: 453.32px;
+  height: 139.84px;
+  margin: 0 0 0 0;
+  z-index: 15;
+}
+
+.skill-web {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 95px;
+  top: 0;
+  left: 0;
+  color: #2f005b;
+  font-family: Poppins, var(--default-font-family);
+  font-style: italic;
+  font-size: 63px;
+  font-weight: 700;
+  line-height: 94.5px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: 1.89px;
+  z-index: 16;
+  -webkit-text-stroke: 0.1px #2f005b;
+}
+.skill-development {
+  position: absolute;
+  width: 357px;
+  height: 76px;
+  top: 63.84px;
+  left: 96.32px;
+  font-family: Poppins, var(--default-font-family);
+  font-style: italic;
+  font-size: 50.400001525878906px;
+  font-weight: 700;
+  line-height: 75.6px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  letter-spacing: 1.51px;
+  z-index: 17;
+}
+.skill-dev {
+  position: relative;
+  color: transparent;
+  font-family: Poppins, var(--default-font-family);
+  font-style: italic;
+  font-size: 50.400001525878906px;
+  font-weight: 500;
+  line-height: 75.6px;
+  text-align: left;
+  letter-spacing: 1.51px;
+  -webkit-text-stroke: 1.344px #2f005b;
+}
+.skill-development-3 {
+  position: relative;
+  color: #2f005b;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 50.400001525878906px;
+  font-weight: 500;
+  line-height: 75.6px;
+  text-align: left;
+  letter-spacing: 1.51px;
+  -webkit-text-stroke: 1.344px #2f005b;
+}
+.skill-frontend-react-html {
+  position: relative;
+  width: 575px;
+  height: 75px;
+  margin: -0.84px 0 0 0.3px;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16.80000114440918px;
+  font-weight: 700;
+  line-height: 25.2px;
+  text-align: left;
+  letter-spacing: 2.52px;
+  z-index: 18;
+}
+.skill-backend {
+  position: relative;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16.80000114440918px;
+  font-weight: 700;
+  line-height: 25.2px;
+  text-align: left;
+  letter-spacing: 2.52px;
+}
+.skill-react {
+  position: relative;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25.2px;
+  text-align: left;
+  letter-spacing: 2.52px;
+}
+.skill-backend-skills {
+  position: relative;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25.2px;
+  text-align: left;
+  letter-spacing: 2.52px;
+}
+.skill-backend-4 {
+  position: relative;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16.80000114440918px;
+  font-weight: 700;
+  line-height: 25.2px;
+  text-align: left;
+  letter-spacing: 2.52px;
+}
+.skill-empty {
+  position: relative;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 16.80000114440918px;
+  font-weight: 600;
+  line-height: 25.2px;
+  text-align: left;
+  letter-spacing: 2.52px;
+}
+.skill-backend-skills-5 {
+  position: relative;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25.2px;
+  text-align: left;
+  letter-spacing: 2.52px;
+}
+.skill-frameworks-libraries {
+  position: relative;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 17.5px;
+  font-weight: 700;
+  line-height: 25.2px;
+  text-align: left;
+  letter-spacing: 2.52px;
+}
+.skill-backend-skills-6 {
+  position: relative;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-style: italic;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 25.2px;
+  text-align: left;
+  letter-spacing: 2.52px;
+}
+
+
+.db-group {
+  position: absolute;
+  width: 409.094px;
+  height: 145px;
+  top: 50%;
+  left: 150px;
+  transform: translate(0, -49.66%);
+  z-index: 14;
+}
+.db-group-2 {
+  position: relative;
+  width: 409.094px;
+  height: 106.748px;
+  margin: 0 0 0 0;
+  z-index: 15;
+}
+.db-database {
+  position: absolute;
+  width: 290px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 56.25px;
+  font-weight: 500;
+  line-height: 84px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  letter-spacing: 1.69px;
+  z-index: 16;
+}
+.db-data {
+  position: relative;
+  color: #2f005b;
+  font-family: Poppins, var(--default-font-family);
+  font-style: italic;
+  font-size: 56.25px;
+  font-weight: 700;
+  line-height: 84.375px;
+  text-align: left;
+  letter-spacing: 1.69px;
+  
+}
+.db-base {
+  position: relative;
+  color: transparent;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 56.25px;
+  font-style:italic;
+  font-weight: 700;
+  line-height: 84.375px;
+  text-align: left;
+  letter-spacing: 1.69px;
+  -webkit-text-stroke: 0.1px #2f005b;
+}
+.db-technologies {
+  position: absolute;
+  width: 225.344px;
+  height: 36.687px;
+  top: 70.061px;
+  left: 183.75px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/95YWnfzbe0.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 17;
+}
+.db-frame-3 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 14px;
+  position: relative;
+  width: 314px;
+  margin: 12.252px 0 0 44px;
+  z-index: 18;
+}
+.db-mysql-xampp-mongodb {
+  flex-shrink: 0;
+  position: relative;
+  width: 369px;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 17.5px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  letter-spacing: 2.63px;
+  z-index: 19;
+}
+.db-mysql {
+  position: relative;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 17.5px;
+  font-weight: 300;
+  line-height: 26.25px;
+  text-align: left;
+  letter-spacing: 2.63px;
+  -webkit-text-stroke: 0.8px #2c0056;
+}
+.db-xampp {
+  position: relative;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 12.5px;
+  font-weight: 300;
+  line-height: 26.25px;
+  text-align: left;
+  letter-spacing: 2.63px;
+  -webkit-text-stroke: 0.8px #2c0056;
+}
+.db-mongodb {
+  position: relative;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 17.5px;
+  font-weight: 300;
+  line-height: 26.25px;
+  text-align: left;
+  letter-spacing: 2.63px;
+  -webkit-text-stroke: 0.8px #2c0056;
+}
+
+
+.ui-group {
+  position: absolute;
+  width: 309px;
+  height: 145px;
+  top: 50%;
+  left: 150px;
+  transform: translate(0, -49.66%);
+  z-index: 14;
+}
+.ui-group-2 {
+  position: relative;
+  width: 309px;
+  height: 115px;
+  margin: 0 0 0 0;
+  z-index: 15;
+}
+.ui-ux {
+  position: absolute;
+  width: 166px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 56.25px;
+  font-weight: 500;
+  line-height: 84px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  letter-spacing: 1.69px;
+  z-index: 16;
+}
+.ui {
+  position: relative;
+  color: #2f005b;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 56.25px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 84.375px;
+  text-align: left;
+  letter-spacing: 1.69px;
+}
+.ui-slash {
+  position: relative;
+  color: transparent;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 56.25px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 84.375px;
+  text-align: left;
+  letter-spacing: 1.69px;
+  -webkit-text-stroke: 0.1px #2f005b;
+}
+.ui-3 {
+  position: relative;
+  color: #2f005b;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 56.25px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 84.375px;
+  text-align: left;
+  letter-spacing: 1.69px;
+
+}
+.ui-designing {
+  position: absolute;
+  width: 191px;
+  height: 54px;
+  top: 61px;
+  left: 118px;
+  font-family: Poppins, var(--default-font-family);
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  letter-spacing: 1.08px;
+  z-index: 17;
+}
+.ui-design {
+  position: relative;
+  color: #2f005b;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 36px;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 54px;
+  text-align: left;
+  letter-spacing: 1.08px;
+}
+.ui-ing {
+  position: relative;
+  color: transparent;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  letter-spacing: 1.08px;
+  -webkit-text-stroke: 0.1px #2f005b;
+}
+.ui-frame-4 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 14px;
+  position: relative;
+  width: 219.8px;
+  margin: 4px 0 0 45px;
+  z-index: 18;
+}
+.ui-figma {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 100.8px;
+  height: 26px;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 17.5px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: 2.63px;
+  z-index: 19;
+  -webkit-text-stroke: 1.05px #2c0056;
+}
+.ui-framer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  width: 105px;
+  height: 26px;
+  color: #2c0056;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 17.5px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  white-space: nowrap;
+  letter-spacing: 2.63px;
+  z-index: 20;
+  -webkit-text-stroke: 1.05px #2c0056;
+}
+
+.soft-group {
+  position: absolute;
+  width: 309px;
+  height: 145px;
+  top: 50%;
+  left: 160px;
+  transform: translate(0, -49.66%);
+  z-index: 14;
+}
+.soft-group-2 {
+  position: relative;
+  width: 309px;
+  height: 115px;
+  margin: 0 0 0 0;
+  z-index: 15;
+}
+.soft-frame-4 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 45px;
+  position: relative;
+  width: 219.8px;
+  margin: 0px 0 0 -40px;
+  z-index: 18;
+}
+.soft-skills {
+  position: absolute;
+  width: 166px;
+  height: 84px;
+  top: 0;
+  left: 85px;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 56.25px;
+  font-weight: 500;
+  line-height: 84px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  letter-spacing: 1.69px;
+  z-index: 16;
+}
+.soft-skills-2 {
+  position: absolute;
+  width: 191px;
+  height: 54px;
+  top: 61px;
+  left: 175px;
+  font-family: Poppins, var(--default-font-family);
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  letter-spacing: 1.08px;
+  z-index: 17;
+}
+
+.cr-writing {
+  position: absolute;
+  width: 191px;
+  height: 54px;
+  top: 61px;
+  left: 185px;
+  font-family: Poppins, var(--default-font-family);
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  text-overflow: initial;
+  white-space: nowrap;
+  letter-spacing: 1.08px;
+  z-index: 17;
+}
+.skill-matrix {
+  position: absolute;
+  width: 760px;
+  height: 609.39px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-49.93%, -50.05%);
+  z-index: 2;
+  overflow: hidden;
+}
+.skill-matrix-flywheel {
+  position: absolute;
+  width: 817.927px;
+  height: 609.39px;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  overflow: hidden;
+}
+.skill-skills-7 {
+  position: absolute;
+  width: 757.683px;
+  height: 609.39px;
+  margin: 0 0 0 0;
+  font-size: 0px;
+  z-index: 4;
+  overflow: hidden;
+}
+.skill-programming {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 100.793px;
+  height: 18px;
+  margin: 8px 0 0 327.865px;
+  color: #28004e;
+  font-family: Inter, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 8;
+}
+.skill-flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 648.78px;
+  height: 36px;
+  margin: 66.573px 0 0 59.086px;
+  z-index: 10;
+}
+.skill-creative-writing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 120.488px;
+  height: 36px;
+  color: #28004e;
+  font-family: Inter, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.153px;
+  text-align: center;
+  text-overflow: initial;
+  z-index: 7;
+  overflow: hidden;
+}
+.skill-web-development {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 139.024px;
+  height: 36px;
+  color: #28004e;
+  font-family: Inter, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.153px;
+  text-align: center;
+  text-overflow: initial;
+  z-index: 10;
+  overflow: hidden;
+}
+.skill-flex-row-8 {
+  position: relative;
+  width: 760px;
+  height: 44.659px;
+  margin: 148.207px 0 0 0;
+  z-index: 9;
+}
+.skill-database-technologies {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 104.268px;
+  height: 32.439px;
+  top: 0;
+  left: 655.731px;
+  color: #28004e;
+  font-family: Inter, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.153px;
+  text-align: center;
+  text-overflow: initial;
+  z-index: 9;
+  overflow: hidden;
+}
+.skill-management {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 104.268px;
+  height: 32.439px;
+  top: -20px;
+  left: 0;
+  color: #28004e;
+  font-family: Inter, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18.153px;
+  text-align: center;
+  z-index: 6;
+}
+.skill-flex-row-9 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 641.83px;
+  height: 18px;
+  margin: 163.878px 0 0 75.305px;
+  z-index: 11;
+}
+.skill-soft-skills {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 133.232px;
+  height: 18px;
+  color: #28004e;
+  font-family: Inter, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 5;
+}
+.skill-ui-ux-designing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 164.512px;
+  height: 18px;
+  color: #28004e;
+  font-family: Inter, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 11;
+}
+.skill-graphic-designing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  width: 132px;
+  height: 18px;
+  margin: 68.89px 0 0 310.914px;
+  color: #28004e;
+  font-family: Inter, var(--default-font-family);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 12;
+}
+.skill-matrix-a {
+  position: absolute;
+  width: 1279px;
+  height: 610px;
+  top: 50%;
+  left: 50%;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/ED5hJf8tfP.png)
+    no-repeat center;
+  background-size: cover;
+  transform: translate(-49.92%, -50%);
+  z-index: 14;
+}
+.skill-group {
+  position: relative;
+  width: 587.5px;
+  height: 112.515px;
+  margin: -35px 0 0 484px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/RY5NvJc2Wd.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 13;
+}
+.skill-sbg {
+  position: absolute;
+  width: 1520px;
+  height: 862px;
+  top: 0;
+  left: 0;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/owmwAQBy1n.png)
+    no-repeat center;
+  background-size: cover;
+}
+.skill-detail-box {
+  position: relative;
+  margin-top: 20px;
+  background: #f8f4ff;
+  border: 1px solid #bfa7f2;
+  border-radius: 12px;
+  padding: 16px 24px;
+  max-width: 600px;
+  color: #2f005b;
+  font-family: Inter, sans-serif;
+  animation: fadeIn 0.3s ease-in-out;
+  z-index: 100;
+}
+
+.skill-detail-box h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.skill-detail-box p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.skill-skills-7 span {
+  cursor: pointer;
+  z-index: 10;
+  position: relative;
+}
+
+.skill-matrix-a,
+.skill-rectangle,
+.skill-rectangle-1,
+.skill-rectangle-2,
+.skill-rectangle-3,
+.skill-rectangle-4,
+.skill-rectangle-5 {
+  pointer-events: none;
+}
+
+.skill-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: all 0.4s ease-in-out;
+  gap: 20px; /* 🔽 reduced from 40px */
+  padding: 40px 20px; /* 🔽 reduce side padding */
+}
+
+.skill-bg-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600px;
+  height: 100%;
+  background: url("Frame\ 33.svg") no-repeat center;
+  background-size: contain;
+  opacity: 100; /* Optional */
+  z-index: 1;
+}
+
+.skill-content-wrapper.expanded .skill-flex-row-bf {
+  transform: translateX(180px);
+  transition: transform 0.4s ease;
+}
+
+.skill-detail-panel {
+  flex: 0 0 500px;
+  animation: fadeInLeft 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 30px;
+}
+
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
