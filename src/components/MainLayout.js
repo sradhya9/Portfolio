@@ -7,6 +7,7 @@ import Projects from "./Project";
 import Skills from "./Skill";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import "../styles/MainLayout.css"; // Assuming you have a CSS file for styling
 
 const MainLayout = () => {
   const location = useLocation();
@@ -30,6 +31,7 @@ const MainLayout = () => {
     <div>
       <section ref={refs["/"]}><Home /></section>
       <section ref={refs["/about"]}><About /></section>
+      <section class="sk-container"></section>
       <section ref={refs["/skills"]}><Skills /></section>
       <section ref={refs["/projects"]}><Projects /></section>
       <section ref={refs["/contact"]}><Contact /></section>

@@ -11,6 +11,7 @@ const Skill = () => {
 
   return (
     <div className="skill-main-container">
+      <div class="sk1-container"></div>
       <div className={`skill-content-wrapper ${selectedSkill ? "expanded" : ""}`}>
         {/* Left column for detail */}
         {selectedSkill === "Programming" && (
@@ -155,14 +156,6 @@ const Skill = () => {
 
         {/* Right side matrix */}
         <div className="skill-flex-row-bf">
-          <div className="skill-rectangle"></div>
-          <div className="skill-rectangle-1"></div>
-          <div className="skill-rectangle-2"></div>
-          <div className="skill-rectangle-3"></div>
-          <div className="skill-rectangle-4"></div>
-          <div className="skill-rectangle-5"></div>
-          <div className="skill-skills"></div>
-
           <div className={`skill-frame-6 ${selectedSkill ? "shifted-frame" : "centered-frame"}`}>
             <div className="skill-matrix">
               <div className="skill-matrix-flywheel">

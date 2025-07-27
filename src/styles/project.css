@@ -203,6 +203,17 @@ button {
   z-index: 4;
   border-radius: 15px 15px 0 0;
 }
+.project-image-pop {
+  flex-shrink: 0;
+  position: relative;
+  width: 500px;
+  height: 278px;
+  background: url(../images/proj1.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+  border-radius: 15px 15px 0 0;
+}
 .project-frame-8 {
   display: flex;
   align-items: center;
@@ -252,6 +263,18 @@ button {
     no-repeat center;
   background-size: cover;
   z-index: 16;
+  border-radius: 15px 15px 0 0;
+}
+
+.project-image-a-pop{
+  flex-shrink: 0;
+  position: relative;
+  width: 500px;
+  height: 278px;
+  background: url(../images/proj2.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
   border-radius: 15px 15px 0 0;
 }
 .project-frame-b {
@@ -308,6 +331,17 @@ button {
   z-index: 20;
   border-radius: 15px 15px 0 0;
 }
+.project-name-pop{
+  flex-shrink: 0;
+  position: relative;
+  width: 500px;
+  height: 278px;
+  background: url(../images/proj3.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+  border-radius: 15px 15px 0 0;
+}
 .project-frame-d {
   display: flex;
   align-items: center;
@@ -360,6 +394,17 @@ button {
     no-repeat center;
   background-size: cover;
   z-index: 8;
+  border-radius: 15px 15px 0 0;
+}
+.project-name-f-pop {
+  flex-shrink: 0;
+  position: relative;
+  width: 500px;
+  height: 278px;
+  background: url(../images/proj4.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
   border-radius: 15px 15px 0 0;
 }
 .project-frame-10 {
@@ -416,6 +461,17 @@ button {
   z-index: 24;
   border-radius: 15px 15px 0 0;
 }
+.project-image-12-pop {
+  flex-shrink: 0;
+  position: relative;
+  width: 500px;
+  height: 278px;
+  background: url(../images/proj5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+  border-radius: 15px 15px 0 0;
+}
 .project-frame-13 {
   display: flex;
   align-items: center;
@@ -468,6 +524,17 @@ button {
     no-repeat center;
   background-size: cover;
   z-index: 12;
+  border-radius: 15px 15px 0 0;
+}
+.project-name-15-pop {
+  flex-shrink: 0;
+  position: relative;
+  width: 500px;
+  height: 278px;
+  background: url(../images/proj6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
   border-radius: 15px 15px 0 0;
 }
 .project-frame-16 {
@@ -525,6 +592,17 @@ button {
   z-index: 12;
   border-radius: 15px 15px 0 0;
 }
+.project-name-18-pop {
+  flex-shrink: 0;
+  position: relative;
+  width: 500px;
+  height: 278px;
+  background: url(../images/proj7.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+  border-radius: 15px 15px 0 0;
+}
 .project-frame-19 {
   display: flex;
   align-items: center;
@@ -549,6 +627,17 @@ button {
   z-index: 12;
   border-radius: 15px 15px 0 0;
 }
+.project-name-19-pop {
+  flex-shrink: 0;
+  position: relative;
+  width: 500px;
+  height: 278px;
+  background: url(../images/proj8.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+  border-radius: 15px 15px 0 0;
+}
 .project-name-20 {
   flex-shrink: 0;
   position: relative;
@@ -558,6 +647,17 @@ button {
     no-repeat center;
   background-size: cover;
   z-index: 12;
+  border-radius: 15px 15px 0 0;
+}
+.project-name-20-pop {
+  flex-shrink: 0;
+  position: relative;
+  width: 500px;
+  height: 278px;
+  background: url(../images/proj9.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
   border-radius: 15px 15px 0 0;
 }
 .project-name-21 {
@@ -571,6 +671,17 @@ button {
   z-index: 12;
   border-radius: 15px 15px 0 0;
 }
+.project-name-21-pop {
+  flex-shrink: 0;
+  position: relative;
+  width: 500px;
+  height: 278px;
+  background: url(../images/proj10.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+  border-radius: 15px 15px 0 0;
+}
 .project-name-22 {
   flex-shrink: 0;
   position: relative;
@@ -582,6 +693,17 @@ button {
   z-index: 12;
   border-radius: 15px 15px 0 0;
 }
+.project-name-22-pop {
+  flex-shrink: 0;
+  position: relative;
+  width: 500px;
+  height: 278px;
+  background: url(../images/proj11.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
+  border-radius: 15px 15px 0 0;
+}
 .project-name-23 {
   flex-shrink: 0;
   position: relative;
@@ -591,6 +713,17 @@ button {
     no-repeat center;
   background-size: cover;
   z-index: 12;
+  border-radius: 15px 15px 0 0;
+}
+.project-name-23-pop {
+  flex-shrink: 0;
+  position: relative;
+  width: 500px;
+  height: 278px;
+  background: url(../images/proj12.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 4;
   border-radius: 15px 15px 0 0;
 }
 .vibe-chat-application {
@@ -641,7 +774,8 @@ button {
   background: #f9f2ff;
   border-radius: 24px;
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
-  width: 520px;
+  width: 500px;
+  height: 500px;
   max-width: 95%;
   position: relative;
   overflow: hidden;
@@ -669,11 +803,11 @@ button {
   font-weight: bold;
   color: #47008a;
   cursor: pointer;
-  z-index: 2;
+  z-index: 10;
 }
 
 .modal-image-frame {
-  height: 220px;
+  height: 278px;
   background: #e6d7ff;
   display: flex;
   align-items: center;
@@ -682,38 +816,73 @@ button {
 
 /* This image class will be dynamically inserted via project.imageClass */
 
-
 .modal-text-content {
-  padding: 24px 32px 28px;
-  text-align: center;
+  padding: 20px 24px 30px 24px;
+}
+
+.modal-header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
 }
 
 .modal-title {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 600;
-  color: #2e004d;
-  margin-bottom: 10px;
+  font-family: Poppins, var(--default-font-family);
+  color: #37006b;
+  margin: 0;
+}
+
+.modal-link {
+  color: #000000;
+  padding: 6px 14px;
+  border: 3px solid #2b0064;
+  z-index: 36;
+  font-family: Poppins, var(--default-font-family);
+  border-radius: 16px;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background 0.2s ease;
 }
 
 .modal-description {
   font-size: 15px;
-  color: #333;
-  margin-bottom: 20px;
+  color: #444;
   line-height: 1.5;
+  margin-top: 15px;
+}
+.modal-tech-line {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Poppins', sans-serif;
+  margin: 25px 0 10px 0;
 }
 
-.modal-link {
-  display: inline-block;
-  padding: 10px 20px;
-  background: linear-gradient(135deg, #5b00b7, #8a1fff);
-  color: white;
-  border-radius: 12px;
-  font-weight: 500;
-  text-decoration: none;
-  transition: 0.3s;
+.modal-tech-label {
+  font-weight: 600;
+  color: #37006b;
+  font-size: 15px;
 }
 
-.modal-link:hover {
-  background: linear-gradient(135deg, #3c0078, #6c00cc);
+.modal-tech-used {
+  font-weight: 400;
+  color: #4d006e;
+  font-size: 15px;
 }
 
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

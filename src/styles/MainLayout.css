@@ -1,0 +1,12 @@
+
+.sk-container {
+  position: absolute;
+  width: 1520px;
+  height: 223px;
+  top: 1610px;
+  margin: 0 auto;
+  background: url(../images/skill-heading.png)
+    no-repeat center;
+  background-size: contain;
+  overflow: hidden;
+}

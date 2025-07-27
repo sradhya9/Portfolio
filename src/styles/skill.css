@@ -1047,7 +1047,7 @@ button {
   position: relative;
   width: 587.5px;
   height: 112.515px;
-  margin: -35px 0 0 484px;
+  margin: 40px 0 0 484px;
   background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/RY5NvJc2Wd.png)
     no-repeat center;
   background-size: cover;
@@ -1120,7 +1120,7 @@ button {
   justify-content: center;
   transition: all 0.4s ease-in-out;
   gap: 20px; /* 🔽 reduced from 40px */
-  padding: 40px 20px; /* 🔽 reduce side padding */
+  padding: 0px 20px; /* 🔽 reduce side padding */
 }
 
 .skill-bg-image {
@@ -1147,6 +1147,19 @@ button {
   flex-direction: column;
   justify-content: flex-start;
   margin-top: 30px;
+}
+
+.sk1-container {
+  position: absolute;
+  width: 1520px;
+  height: 223px;
+  top: -113px;
+  margin: 0 auto;
+  background: url(../images/skill-heading.png)
+    no-repeat center;
+  background-size: contain;
+  overflow: hidden;
+  z-index: 100;
 }
 
 
