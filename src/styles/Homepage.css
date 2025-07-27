@@ -417,11 +417,16 @@ button {
   height: 9.33%;
   top: 77.07%;
   left: 0.44%;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-23/hVGQ9dCDcW.png)
-    no-repeat center;
+  background: linear-gradient(90deg,#5200AB, #460090);
   background-size: 100% 100%;
+  border: 3px solid #2C0065;
   z-index: 27;
   border-radius: 16px;
+}
+.rectangle-ab:hover {
+  background: linear-gradient(270deg,#5200AB, #460090);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px); /* Safari support */
 }
 .hire-me {
   display: flex;

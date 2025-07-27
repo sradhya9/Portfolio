@@ -59,9 +59,6 @@ button {
     rgba(115, 82, 147, 0.1)
   );
   border: 1.25px solid transparent; 
-  background-image: 
-        linear-gradient(white, white), 
-        linear-gradient(270deg, #7300FF, #1D0040); /* Outer gradient border */
     background-origin: border-box;
     background-clip: padding-box, border-box
 }
@@ -625,3 +622,98 @@ button {
     no-repeat center;
   background-size: cover;
 }
+
+.project-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(20, 0, 40, 0.7);
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.project-modal-card {
+  background: #f9f2ff;
+  border-radius: 24px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  width: 520px;
+  max-width: 95%;
+  position: relative;
+  overflow: hidden;
+  animation: scaleIn 0.3s ease;
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.modal-close {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  background: none;
+  border: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: #47008a;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.modal-image-frame {
+  height: 220px;
+  background: #e6d7ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* This image class will be dynamically inserted via project.imageClass */
+
+
+.modal-text-content {
+  padding: 24px 32px 28px;
+  text-align: center;
+}
+
+.modal-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: #2e004d;
+  margin-bottom: 10px;
+}
+
+.modal-description {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.modal-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #5b00b7, #8a1fff);
+  color: white;
+  border-radius: 12px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.modal-link:hover {
+  background: linear-gradient(135deg, #3c0078, #6c00cc);
+}
+

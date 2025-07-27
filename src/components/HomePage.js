@@ -1,10 +1,11 @@
 // src/components/HomePage.jsx
 import React from "react";
 import '../styles/Homepage.css';
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 const HomePage = () => {
   const location = useLocation();
+  const navigate = useNavigate();
 
   return (
     <div className="main-container">
@@ -19,7 +20,7 @@ const HomePage = () => {
                 </div>
                 <div className="frame-8">
                   <Link to="/about" className={`about-me ${location.pathname === "/about" ? "home-active" : "home-inactive"}`}>
-                      About Me
+                    About Me
                   </Link>
                 </div>
                 <div className="frame-9">
@@ -35,10 +36,10 @@ const HomePage = () => {
               </div>
             </div>
           </div>
-          <button className="connect-frame">
-            <div className="connect-text"><Link to="/contact">
-                    CONNECT
-                  </Link></div>
+          <button className="connect-frame" >
+            <div className="connect-text" ><Link to="/contact">
+              CONNECT
+            </Link></div>
           </button>
         </div>
       </div>
@@ -54,20 +55,30 @@ const HomePage = () => {
           user-focused, scalable solutions across web and backend
           technologies.
         </span>
-        <div className="rectangle-ab"><span className="hire-me">Hire Me</span></div>
-        <div className="rectangle-b">
+        <button
+          className="rectangle-ab"
+          onClick={() => navigate("/contact")}
+        >
+          <span className="hire-me">Hire Me</span>
+        </button>
+        <a
+          className="rectangle-b"
+          href="/resume.pdf"
+          download="Sradhya_Renish_Resume.pdf"
+          style={{ textDecoration: "none" }}
+        >
           <span className="download-cv">Download CV</span>
           <div className="iconly-light-download"></div>
-        </div>
+        </a>
+
       </div>
 
       <div className="flex-row-f">
-        <div className="facebook-negative">
-          <div className="icon-park-outline-dribble"></div>
-        </div>
-        <div className="group-c"></div>
-        <div className="instagram-negative"></div>
-        <div className="linkedin-negative"></div>
+        <a href="https://github.com/sradhya9" target="_blank" rel="noopener noreferrer" className="facebook-negative"><div className="icon-park-outline-dribble"></div></a>
+        <a href="mailto:sradhyarenish9@gmail.com" target="_blank" className="group-c" rel="noopener noreferrer"></a>
+        <a href="https://www.instagram.com/__.sradhya18.__/" target="_blank" rel="noopener noreferrer" className="instagram-negative"></a>
+        <a href="https://www.linkedin.com/in/sradhya-renish-74181621b/" target="_blank" rel="noopener noreferrer" className="linkedin-negative"></a>
+
       </div>
 
       <div className="home-bg"></div>

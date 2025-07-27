@@ -4,6 +4,8 @@ import "../styles/project.css";
 const Project = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
+  const [selectedProject, setSelectedProject] = useState(null);
+
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
@@ -14,6 +16,9 @@ const Project = () => {
       id: 1,
       title: "ShareNSplit Website",
       category: "Design",
+      description: "A design portfolio listing the top 100 designers with ratings.",
+      github: "https://github.com/sradhya9/sns",
+      imageClass: "project-image",
       jsx: (
         <div className="project-frame-7">
           <div className="project-image"></div>
@@ -29,6 +34,9 @@ const Project = () => {
       id: 2,
       title: "CSI Website",
       category: "Design",
+      description: "A design portfolio listing the top 100 designers with ratings.",
+      github: "https://github.com/sradhya9/sns",
+      imageClass: "project-image-a",
       jsx: (
         <div className="project-frame-9">
           <div className="project-image-a"></div>
@@ -198,6 +206,21 @@ const Project = () => {
 
   ];
 
+  {
+    selectedProject && (
+      <div className="project-modal">
+        <div className="project-modal-content">
+          <h2>{selectedProject.title}</h2>
+          <p>{selectedProject.description}</p>
+          <a href={selectedProject.github} target="_blank" rel="noopener noreferrer">
+            View on GitHub
+          </a>
+          <button onClick={() => setSelectedProject(null)}>Close</button>
+        </div>
+      </div>
+    )
+  }
+
   const filteredProjects = allProjects.filter(
     (project) =>
       (selectedCategory === "All" || project.category === selectedCategory) &&
@@ -261,12 +284,48 @@ const Project = () => {
       <div className="project-frame-6">
         {filteredProjects.length > 0 ? (
           filteredProjects.map((project) => (
-            <React.Fragment key={project.id}>{project.jsx}</React.Fragment>
+            <div key={project.id} onClick={() => setSelectedProject(project)}>
+              {project.jsx}
+            </div>
           ))
         ) : (
           <div className="no-results">No matching projects found.</div>
         )}
       </div>
+
+      {selectedProject && (
+  <div className="project-modal-overlay" onClick={() => setSelectedProject(null)}>
+    <div
+      className="project-modal-card"
+      onClick={(e) => e.stopPropagation()}
+    >
+      <button className="modal-close" onClick={() => setSelectedProject(null)}>✖</button>
+
+      <div className="modal-image-frame">
+        <div className={selectedProject.imageClass}></div>
+      </div>
+
+      <div className="modal-text-content">
+        <h2 className="modal-title">{selectedProject.title}</h2>
+        {selectedProject.description && (
+          <p className="modal-description">{selectedProject.description}</p>
+        )}
+        {selectedProject.github && (
+          <a
+            href={selectedProject.github}
+            className="modal-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View on GitHub
+          </a>
+        )}
+      </div>
+    </div>
+  </div>
+)}
+
+
     </div>
   );
 };
