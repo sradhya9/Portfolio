@@ -30,6 +30,7 @@ button {
   background: #ffffff;
   overflow: hidden;
 }
+
 .skill-flex-row-bf {
   position: relative;
   width: 1279px;
@@ -37,89 +38,90 @@ button {
   margin: -111px 100px 0 120px;
   z-index: 26;
 }
+
 .skill-rectangle {
   position: absolute;
   width: 222.08px;
   height: 222.08px;
   top: 0;
   left: 349px;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/svuxEWEDZy.png)
-    no-repeat center;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/svuxEWEDZy.png) no-repeat center;
   background-size: contain;
   opacity: 0.42;
   z-index: 19;
 }
+
 .skill-rectangle-1 {
   position: absolute;
   width: 222.08px;
   height: 222.08px;
   top: 0;
   left: 702.512px;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/JZVgV6wzOE.png)
-    no-repeat center;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/JZVgV6wzOE.png) no-repeat center;
   background-size: contain;
   opacity: 0.42;
   z-index: 20;
 }
+
 .skill-rectangle-2 {
   position: absolute;
   width: 142.131px;
   height: 142.131px;
   top: 40px;
   left: 872px;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/QmJ5qpfp3J.png)
-    no-repeat center;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/QmJ5qpfp3J.png) no-repeat center;
   background-size: contain;
   opacity: 0.22;
   z-index: 23;
 }
+
 .skill-rectangle-3 {
   position: absolute;
   width: 142.131px;
   height: 142.131px;
   top: 41px;
   left: 259px;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/9gEeHbg0jC.png)
-    no-repeat center;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/9gEeHbg0jC.png) no-repeat center;
   background-size: contain;
   opacity: 0.22;
   z-index: 22;
 }
+
 .skill-rectangle-4 {
   position: absolute;
   width: 90.964px;
   height: 90.964px;
   top: 66px;
   left: 983px;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/FmgJ5gtW4n.png)
-    no-repeat center;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/FmgJ5gtW4n.png) no-repeat center;
   background-size: contain;
   opacity: 0.15;
   z-index: 26;
 }
+
 .skill-rectangle-5 {
   position: absolute;
   width: 90.964px;
   height: 90.964px;
   top: 67px;
   left: 204px;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/CQkdkB5X2x.png)
-    no-repeat center;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/CQkdkB5X2x.png) no-repeat center;
   background-size: contain;
   opacity: 0.15;
   z-index: 25;
 }
+
 .skill-skills {
   position: absolute;
   width: 253.049px;
   height: 46.595px;
   top: 111px;
   left: 509.758px;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/zvpJD1huyC.png)
-    no-repeat center;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/zvpJD1huyC.png) no-repeat center;
   background-size: cover;
   z-index: 17;
 }
+
 .skill-frame-6 {
   position: absolute;
   width: 1279px;
@@ -149,6 +151,7 @@ button {
   transform: translate(0, -49.66%);
   z-index: 14;
 }
+
 .skill-group-2 {
   position: relative;
   width: 412px;
@@ -156,6 +159,7 @@ button {
   margin: 0 0 0 0;
   z-index: 15;
 }
+
 .skill-programming-3 {
   position: absolute;
   width: 412px;
@@ -172,6 +176,7 @@ button {
   letter-spacing: 1.69px;
   z-index: 100;
 }
+
 .skill-pro {
   position: relative;
   color: #2f005b;
@@ -185,6 +190,7 @@ button {
   -webkit-text-stroke: 1.5px #2f005b;
   z-index: 100;
 }
+
 .skill-gramming {
   position: relative;
   color: transparent;
@@ -197,17 +203,18 @@ button {
   letter-spacing: 1.69px;
   -webkit-text-stroke: 0.1px #2f005b;
 }
+
 .skill-languages {
   position: absolute;
   width: 164.149px;
   height: 41.697px;
   top: 67.703px;
   left: 246.677px;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/rVvo8TD95w.png)
-    no-repeat center;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/rVvo8TD95w.png) no-repeat center;
   background-size: cover;
   z-index: 17;
 }
+
 .skill-frame-4 {
   display: flex;
   align-items: center;
@@ -218,6 +225,7 @@ button {
   margin: 10.35px 0 0 40px;
   z-index: 18;
 }
+
 .skill-c {
   display: flex;
   align-items: flex-start;
@@ -238,6 +246,7 @@ button {
   z-index: 19;
   -webkit-text-stroke: 1.05px #2c0056;
 }
+
 .skill-python {
   display: flex;
   align-items: flex-start;
@@ -258,6 +267,7 @@ button {
   z-index: 20;
   -webkit-text-stroke: 1.05px #2c0056;
 }
+
 .skill-java {
   display: flex;
   align-items: flex-start;
@@ -278,6 +288,7 @@ button {
   z-index: 21;
   -webkit-text-stroke: 1.05px #2c0056;
 }
+
 .skill-sql {
   display: flex;
   align-items: flex-start;
@@ -308,6 +319,7 @@ button {
   transform: translate(0, -52.8%);
   z-index: 14;
 }
+
 .dev-group-2 {
   position: relative;
   width: 453.32px;
@@ -336,6 +348,7 @@ button {
   z-index: 16;
   -webkit-text-stroke: 0.1px #2f005b;
 }
+
 .skill-development {
   position: absolute;
   width: 357px;
@@ -353,6 +366,7 @@ button {
   letter-spacing: 1.51px;
   z-index: 17;
 }
+
 .skill-dev {
   position: relative;
   color: transparent;
@@ -365,6 +379,7 @@ button {
   letter-spacing: 1.51px;
   -webkit-text-stroke: 1.344px #2f005b;
 }
+
 .skill-development-3 {
   position: relative;
   color: #2f005b;
@@ -376,6 +391,7 @@ button {
   letter-spacing: 1.51px;
   -webkit-text-stroke: 1.344px #2f005b;
 }
+
 .skill-frontend-react-html {
   position: relative;
   width: 575px;
@@ -389,6 +405,7 @@ button {
   letter-spacing: 2.52px;
   z-index: 18;
 }
+
 .skill-backend {
   position: relative;
   color: #2c0056;
@@ -399,6 +416,7 @@ button {
   text-align: left;
   letter-spacing: 2.52px;
 }
+
 .skill-react {
   position: relative;
   color: #2c0056;
@@ -410,6 +428,7 @@ button {
   text-align: left;
   letter-spacing: 2.52px;
 }
+
 .skill-backend-skills {
   position: relative;
   color: #2c0056;
@@ -421,6 +440,7 @@ button {
   text-align: left;
   letter-spacing: 2.52px;
 }
+
 .skill-backend-4 {
   position: relative;
   color: #2c0056;
@@ -431,6 +451,7 @@ button {
   text-align: left;
   letter-spacing: 2.52px;
 }
+
 .skill-empty {
   position: relative;
   color: #2c0056;
@@ -441,6 +462,7 @@ button {
   text-align: left;
   letter-spacing: 2.52px;
 }
+
 .skill-backend-skills-5 {
   position: relative;
   color: #2c0056;
@@ -452,6 +474,7 @@ button {
   text-align: left;
   letter-spacing: 2.52px;
 }
+
 .skill-frameworks-libraries {
   position: relative;
   color: #2c0056;
@@ -462,6 +485,7 @@ button {
   text-align: left;
   letter-spacing: 2.52px;
 }
+
 .skill-backend-skills-6 {
   position: relative;
   color: #2c0056;
@@ -484,6 +508,7 @@ button {
   transform: translate(0, -49.66%);
   z-index: 14;
 }
+
 .db-group-2 {
   position: relative;
   width: 409.094px;
@@ -491,6 +516,7 @@ button {
   margin: 0 0 0 0;
   z-index: 15;
 }
+
 .db-database {
   position: absolute;
   width: 290px;
@@ -507,6 +533,7 @@ button {
   letter-spacing: 1.69px;
   z-index: 16;
 }
+
 .db-data {
   position: relative;
   color: #2f005b;
@@ -517,31 +544,33 @@ button {
   line-height: 84.375px;
   text-align: left;
   letter-spacing: 1.69px;
-  
+
 }
+
 .db-base {
   position: relative;
   color: transparent;
   font-family: Poppins, var(--default-font-family);
   font-size: 56.25px;
-  font-style:italic;
+  font-style: italic;
   font-weight: 700;
   line-height: 84.375px;
   text-align: left;
   letter-spacing: 1.69px;
   -webkit-text-stroke: 0.1px #2f005b;
 }
+
 .db-technologies {
   position: absolute;
   width: 225.344px;
   height: 36.687px;
   top: 70.061px;
   left: 183.75px;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/95YWnfzbe0.png)
-    no-repeat center;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/95YWnfzbe0.png) no-repeat center;
   background-size: cover;
   z-index: 17;
 }
+
 .db-frame-3 {
   display: flex;
   align-items: center;
@@ -552,6 +581,7 @@ button {
   margin: 12.252px 0 0 44px;
   z-index: 18;
 }
+
 .db-mysql-xampp-mongodb {
   flex-shrink: 0;
   position: relative;
@@ -566,6 +596,7 @@ button {
   letter-spacing: 2.63px;
   z-index: 19;
 }
+
 .db-mysql {
   position: relative;
   color: #2c0056;
@@ -577,6 +608,7 @@ button {
   letter-spacing: 2.63px;
   -webkit-text-stroke: 0.8px #2c0056;
 }
+
 .db-xampp {
   position: relative;
   color: #2c0056;
@@ -588,6 +620,7 @@ button {
   letter-spacing: 2.63px;
   -webkit-text-stroke: 0.8px #2c0056;
 }
+
 .db-mongodb {
   position: relative;
   color: #2c0056;
@@ -610,6 +643,7 @@ button {
   transform: translate(0, -49.66%);
   z-index: 14;
 }
+
 .ui-group-2 {
   position: relative;
   width: 309px;
@@ -617,6 +651,7 @@ button {
   margin: 0 0 0 0;
   z-index: 15;
 }
+
 .ui-ux {
   position: absolute;
   width: 166px;
@@ -633,6 +668,7 @@ button {
   letter-spacing: 1.69px;
   z-index: 16;
 }
+
 .ui {
   position: relative;
   color: #2f005b;
@@ -644,6 +680,7 @@ button {
   text-align: left;
   letter-spacing: 1.69px;
 }
+
 .ui-slash {
   position: relative;
   color: transparent;
@@ -656,6 +693,7 @@ button {
   letter-spacing: 1.69px;
   -webkit-text-stroke: 0.1px #2f005b;
 }
+
 .ui-3 {
   position: relative;
   color: #2f005b;
@@ -668,6 +706,7 @@ button {
   letter-spacing: 1.69px;
 
 }
+
 .ui-designing {
   position: absolute;
   width: 191px;
@@ -685,6 +724,7 @@ button {
   letter-spacing: 1.08px;
   z-index: 17;
 }
+
 .ui-design {
   position: relative;
   color: #2f005b;
@@ -696,6 +736,7 @@ button {
   text-align: left;
   letter-spacing: 1.08px;
 }
+
 .ui-ing {
   position: relative;
   color: transparent;
@@ -708,6 +749,7 @@ button {
   letter-spacing: 1.08px;
   -webkit-text-stroke: 0.1px #2f005b;
 }
+
 .ui-frame-4 {
   display: flex;
   align-items: center;
@@ -718,6 +760,7 @@ button {
   margin: 4px 0 0 45px;
   z-index: 18;
 }
+
 .ui-figma {
   display: flex;
   align-items: flex-start;
@@ -738,6 +781,7 @@ button {
   z-index: 19;
   -webkit-text-stroke: 1.05px #2c0056;
 }
+
 .ui-framer {
   display: flex;
   align-items: flex-start;
@@ -768,6 +812,7 @@ button {
   transform: translate(0, -49.66%);
   z-index: 14;
 }
+
 .soft-group-2 {
   position: relative;
   width: 309px;
@@ -775,6 +820,7 @@ button {
   margin: 0 0 0 0;
   z-index: 15;
 }
+
 .soft-frame-4 {
   display: flex;
   align-items: center;
@@ -785,6 +831,7 @@ button {
   margin: 0px 0 0 -40px;
   z-index: 18;
 }
+
 .soft-skills {
   position: absolute;
   width: 166px;
@@ -801,6 +848,7 @@ button {
   letter-spacing: 1.69px;
   z-index: 16;
 }
+
 .soft-skills-2 {
   position: absolute;
   width: 191px;
@@ -836,6 +884,7 @@ button {
   letter-spacing: 1.08px;
   z-index: 17;
 }
+
 .skill-matrix {
   position: absolute;
   width: 760px;
@@ -846,6 +895,7 @@ button {
   z-index: 2;
   overflow: hidden;
 }
+
 .skill-matrix-flywheel {
   position: absolute;
   width: 817.927px;
@@ -855,6 +905,7 @@ button {
   z-index: 3;
   overflow: hidden;
 }
+
 .skill-skills-7 {
   position: absolute;
   width: 757.683px;
@@ -864,6 +915,7 @@ button {
   z-index: 4;
   overflow: hidden;
 }
+
 .skill-programming {
   display: flex;
   align-items: flex-start;
@@ -881,6 +933,7 @@ button {
   white-space: nowrap;
   z-index: 8;
 }
+
 .skill-flex-row {
   display: flex;
   align-items: center;
@@ -891,6 +944,7 @@ button {
   margin: 66.573px 0 0 59.086px;
   z-index: 10;
 }
+
 .skill-creative-writing {
   display: flex;
   align-items: flex-start;
@@ -909,6 +963,7 @@ button {
   z-index: 7;
   overflow: hidden;
 }
+
 .skill-web-development {
   display: flex;
   align-items: flex-start;
@@ -927,6 +982,7 @@ button {
   z-index: 10;
   overflow: hidden;
 }
+
 .skill-flex-row-8 {
   position: relative;
   width: 760px;
@@ -934,6 +990,7 @@ button {
   margin: 148.207px 0 0 0;
   z-index: 9;
 }
+
 .skill-database-technologies {
   display: flex;
   align-items: flex-start;
@@ -953,6 +1010,7 @@ button {
   z-index: 9;
   overflow: hidden;
 }
+
 .skill-management {
   display: flex;
   align-items: flex-start;
@@ -970,6 +1028,7 @@ button {
   text-align: center;
   z-index: 6;
 }
+
 .skill-flex-row-9 {
   display: flex;
   align-items: center;
@@ -980,6 +1039,7 @@ button {
   margin: 163.878px 0 0 75.305px;
   z-index: 11;
 }
+
 .skill-soft-skills {
   display: flex;
   align-items: flex-start;
@@ -997,6 +1057,7 @@ button {
   white-space: nowrap;
   z-index: 5;
 }
+
 .skill-ui-ux-designing {
   display: flex;
   align-items: flex-start;
@@ -1014,6 +1075,7 @@ button {
   white-space: nowrap;
   z-index: 11;
 }
+
 .skill-graphic-designing {
   display: flex;
   align-items: flex-start;
@@ -1031,38 +1093,39 @@ button {
   white-space: nowrap;
   z-index: 12;
 }
+
 .skill-matrix-a {
   position: absolute;
   width: 1279px;
   height: 610px;
   top: 50%;
   left: 50%;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/ED5hJf8tfP.png)
-    no-repeat center;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/ED5hJf8tfP.png) no-repeat center;
   background-size: cover;
   transform: translate(-49.92%, -50%);
   z-index: 14;
 }
+
 .skill-group {
   position: relative;
   width: 587.5px;
   height: 112.515px;
   margin: 40px 0 0 484px;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/RY5NvJc2Wd.png)
-    no-repeat center;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/RY5NvJc2Wd.png) no-repeat center;
   background-size: cover;
   z-index: 13;
 }
+
 .skill-sbg {
   position: absolute;
   width: 1520px;
   height: 862px;
   top: 0;
   left: 0;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/owmwAQBy1n.png)
-    no-repeat center;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-24/owmwAQBy1n.png) no-repeat center;
   background-size: cover;
 }
+
 .skill-detail-box {
   position: relative;
   margin-top: 20px;
@@ -1092,6 +1155,7 @@ button {
     opacity: 0;
     transform: translateY(12px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -1119,8 +1183,10 @@ button {
   flex-direction: row;
   justify-content: center;
   transition: all 0.4s ease-in-out;
-  gap: 20px; /* 🔽 reduced from 40px */
-  padding: 0px 20px; /* 🔽 reduce side padding */
+  gap: 20px;
+  /* 🔽 reduced from 40px */
+  padding: 0px 20px;
+  /* 🔽 reduce side padding */
 }
 
 .skill-bg-image {
@@ -1131,7 +1197,8 @@ button {
   height: 100%;
   background: url("Frame\ 33.svg") no-repeat center;
   background-size: contain;
-  opacity: 100; /* Optional */
+  opacity: 100;
+  /* Optional */
   z-index: 1;
 }
 
@@ -1155,12 +1222,67 @@ button {
   height: 223px;
   top: -113px;
   margin: 0 auto;
-  background: url(../images/skill-heading.png)
-    no-repeat center;
+  background: url(../images/skill-heading.png) no-repeat center;
   background-size: contain;
   overflow: hidden;
   z-index: 100;
 }
+.skills-tooltip-container {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(120, 0, 180, 0.08);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(180, 0, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  position: relative;
+  top: 650px;
+  right: 100px;
+  box-shadow: 0 4px 12px rgba(120, 0, 180, 0.2);
+  z-index: 10;
+}
+
+
+.info-icon {
+  font-size: 12px;
+  color: #6d35a8;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: color 0.2s ease;
+}
+
+.info-icon:hover {
+  color: #9f4aff;
+}
+
+.tooltip-text {
+  visibility: hidden;
+  width: max-content;
+  background-color: #f0e6ff;
+  color: #5a2c91;
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 10px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Show above the icon */
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 13px;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.skills-tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
 
 
 @keyframes fadeInLeft {
@@ -1168,9 +1290,9 @@ button {
     opacity: 0;
     transform: translateX(-25px);
   }
+
   to {
     opacity: 1;
     transform: translateX(0);
   }
 }
-

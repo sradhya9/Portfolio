@@ -196,8 +196,11 @@ const Skill = () => {
             <div className="skill-matrix-a"></div>
           </div>
         </div>
+        <div className="skills-tooltip-container">
+              <span className="info-icon">ℹ</span>
+              <span className="tooltip-text">Click on the skills to know more</span>
+            </div>
       </div>
-
       <div className="skill-group"></div>
       <div className="skill-sbg"></div>
     </div>
