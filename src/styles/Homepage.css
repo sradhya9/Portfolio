@@ -315,7 +315,7 @@ button {
   height: 557.5px;
   top: 0;
   left: 809px;
-  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2025-07-23/3GFsvErxgW.png)
+  background: url(../images/pic.png)
     no-repeat center;
   background-size: cover;
   z-index: 24;
@@ -424,10 +424,15 @@ button {
   border-radius: 16px;
 }
 .rectangle-ab:hover {
-  background: linear-gradient(270deg,#5200AB, #460090);
-  backdrop-filter: blur(11px);
-  -webkit-backdrop-filter: blur(11px); /* Safari support */
+  background: transparent;
+  color: #2b0064;
+  border: 3px solid #2b0064;
 }
+
+.rectangle-ab:hover .hire-me {
+  color: #2b0064;
+}
+
 .hire-me {
   display: flex;
   align-items: flex-start;
@@ -456,6 +461,20 @@ button {
   z-index: 36;
   border-radius: 16px;
 }
+.rectangle-b:hover {
+  background: linear-gradient(90deg,#5200AB, #460090);
+  color: #2b0064;
+  border: 3px solid #2b0064;
+}
+.rectangle-b:hover .download-cv {
+  color: #ffffff;
+}
+.rectangle-b:hover .iconly-light-download {
+  background: url(../images/download.png)
+    no-repeat center;
+  background-size: 100% 100%;
+}
+
 .download-cv {
   display: flex;
   align-items: flex-start;
